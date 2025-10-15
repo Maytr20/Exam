@@ -1,0 +1,18 @@
+#Derive the expression based on Associative law
+
+# 1. With random
+import random
+a = random.randint(0, 99)
+b = random.randint(0, 99)
+c = random.randint(0, 99)
+print ("Associative law ->")
+print ("A + (B + C) ->", (a + (b + c)))
+print ("(A + B) + C ->", ((a + b) + c))
+
+# 2. Without random
+a = 91
+b = 2
+c = 7
+print ("associative law ->")
+print ("A + (B + C) ->", (a + (b + c)))
+print ("(A + B) + C ->", ((a + b) + c))

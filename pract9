@@ -1,0 +1,8 @@
+#Write a program to derive the predicate
+
+prd = input("Enter a Predicate: ")
+pd2 = input("Enter a Predicate: ")
+arg = input("Enter an Argument: ")
+print(prd + "->" + arg)
+print(arg + "->" + pd2)
+print(prd + "->" + pd2)
